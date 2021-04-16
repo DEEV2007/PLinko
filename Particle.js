@@ -13,7 +13,7 @@ class Particle{
         var pose=this.body.position
         var angle=this.body.angle
         push();
-        traslate(pose.x,pose.y)
+        translate(pose.x,pose.y)
         rotate(angle)
         fill(this.color)
         ellipseMode(RADIUS)
