@@ -12,6 +12,7 @@ class Plinko {
     }
     display() {
 
+        
         var pos = this.body.position;
         var angle = this.body.angle;
 
